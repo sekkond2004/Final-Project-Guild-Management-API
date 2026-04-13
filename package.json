@@ -1,0 +1,35 @@
+{
+  "name": "guild-api",
+  "version": "1.0.0",
+  "description": "Guild management REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node database/setup.js",
+    "seed": "node database/seed.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekkond2004/Final-Project-Guild-Management-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sekkond2004/Final-Project-Guild-Management-API/issues"
+  },
+  "homepage": "https://github.com/sekkond2004/Final-Project-Guild-Management-API#readme"
+}
